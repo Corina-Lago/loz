@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+}
+
+
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 152, 187);
+}
+
+.boton{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: aliceblue;
+    background-color: rgb(225, 60, 130);
+    border-radius: 15px;
+    border-style:dashed;
+}
+
+
+.prendido {
+    background-color: rgb(231, 161, 190);
+}
+
+.apagado{
+    background-color: rgb(90, 6, 41);
+}
