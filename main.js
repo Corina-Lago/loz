@@ -6,6 +6,6 @@ console.log('El boton apagar fue presionado');
 document.body.classList.toggle('apagado');
 document.body.classList.toggle('encendido')
 
-apagarBtn.textContent = document.body.classList.contains('encendido')? 'APAGAR LA LUZ' : 'PRENDER LUZ';
+apagarBtn.textContent = document.body.classList.contains('encendido')? 'PRENDER LUZ' : 'APAGAR LA LUZ';
 
 })
